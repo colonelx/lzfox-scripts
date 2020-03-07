@@ -58,6 +58,7 @@ Returns the board working mode
 ### getCtrl()
 
 *You must first set the Mode = CONTROL*
+
 Returns the current set board control (1..250 || START, FINISH)
 
 ### getVersion()
@@ -83,10 +84,13 @@ Sets the board timestamp via python datetime object
 ### setControl(control)
 
 *You must first set the Mode = CONTROL*
+
 control should be (1..250 || START, FINISH)
+
 Sets the board control position
 
 ### writeInfo(info string)
 
 *You must first set the Mode = WRITER*
+
 Sets the board info (freetext)
